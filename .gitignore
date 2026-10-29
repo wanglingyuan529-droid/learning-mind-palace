@@ -1,0 +1,22 @@
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Obsidian 本地状态（每次开窗口都变，提交进去只会产生垃圾 diff）
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+**/.obsidian/workspace.json
+**/.obsidian/workspace-mobile.json
+
+# 压缩包：目录里已经是解压后的同内容，避免仓库翻倍
+*.zip
+
+# 编辑器临时文件
+*.swp
+*~
+.idea/
+.vscode/
+
+# 临时草稿（还没想好要不要留的）
+_draft/
