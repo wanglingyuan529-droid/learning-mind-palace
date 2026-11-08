@@ -20,3 +20,7 @@ desktop.ini
 
 # 临时草稿（还没想好要不要留的）
 _draft/
+
+# Obsidian 图谱布局状态（拖动节点就会变）
+.obsidian/graph.json
+**/.obsidian/graph.json
