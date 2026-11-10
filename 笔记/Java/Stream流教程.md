@@ -129,7 +129,7 @@ Stream<Map.Entry<String, Integer>> entries = map.entrySet().stream();
 
 > **中间方法的特点：返回一个新的 Stream，可以一直链式接下去。**
 > 作用：过滤、转换、排序、截取。
-
+	
 ### 3.1 filter —— 筛选
 
 **留满足条件的：**
@@ -621,14 +621,14 @@ list.parallelStream()   // 多线程处理
 
 ### collect
 
-| 想要 | 写法 |
-|---|---|
+| 想要   | 写法                                           |
+| ---- | -------------------------------------------- |
 | List | `.toList()` 或 `collect(Collectors.toList())` |
-| Set | `collect(Collectors.toSet())` |
-| Map | `collect(Collectors.toMap(k, v))` |
-| 拼接 | `collect(Collectors.joining(", "))` |
-| 分组 | `collect(Collectors.groupingBy(...))` |
-| 分区 | `collect(Collectors.partitioningBy(...))` |
+| Set  | `collect(Collectors.toSet())`                |
+| Map  | `collect(Collectors.toMap(k, v))`            |
+| 拼接   | `collect(Collectors.joining(", "))`          |
+| 分组   | `collect(Collectors.groupingBy(...))`        |
+| 分区   | `collect(Collectors.partitioningBy(...))`    |
 
 ---
 
