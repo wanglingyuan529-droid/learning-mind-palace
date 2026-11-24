@@ -24,3 +24,9 @@ _draft/
 # Obsidian 图谱布局状态（拖动节点就会变）
 .obsidian/graph.json
 **/.obsidian/graph.json
+
+# 压缩包（目录里已有同内容原件，避免仓库翻倍）
+*.tar.gz
+*.tgz
+*.rar
+*.7z
