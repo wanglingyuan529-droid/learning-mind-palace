@@ -236,7 +236,7 @@ True
 - C. 递归实现
 - D. Stream 的语法糖
 
-**28.** 关于 `ConcurrentModificationException`，说法正确的是（　C　）
+**28.** 关于 `ConcurrentModificationException`，说法正确的是（　　）
 
 - A. 只要在遍历时用 `list.remove()`，就**一定**会抛
 - B. 它不一定每次都抛，所以不能靠「我试过没报错」来判断安全
